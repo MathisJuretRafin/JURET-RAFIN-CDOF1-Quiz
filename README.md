@@ -15,3 +15,8 @@ The programm should run
 **How to contribute ?**
 
 
+**Author**
+Mathis Juret-Rafin
+
+**License**
+MIT
