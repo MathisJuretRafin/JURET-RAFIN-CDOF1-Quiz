@@ -11,7 +11,7 @@ Ensure you have Python 3.12 installed on your machine. You can download it from 
 After pulling the project, navigate to the corresponding path in your terminal and run the project using the following command:
 
 ```bash
-python JURET-RAFIN-CDOF1-Quiz.py
+python Quiz_Capital-JURET-RAFIN-CDOF1.py
 ```
 
 The program should run successfully.
