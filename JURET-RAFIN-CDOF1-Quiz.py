@@ -29,6 +29,13 @@ while exit==False:
         for i in question[1:-1]:
             result += i + "\n"
         return result
+    
+    #Checks that the answer entered by the user is among the answers proposed
+    def isAmongAnswers(question, answer):
+        for i in question[1:-1]:
+            if i==answer:
+                return True
+        return False
 
 
     #Let the user answer to the question
@@ -36,6 +43,9 @@ while exit==False:
         print("\n")
         print(printQuestion(i) + "\nEnter your answer :")
         answer = input()
+        while not isAmongAnswers(i,answer):
+            print("\nAnswer unknown ! Enter an answer among those proposed:")
+            answer = input()
         if(answer == i[5]) : score += 1
     print("\n")
 
