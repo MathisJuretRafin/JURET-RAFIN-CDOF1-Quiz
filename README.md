@@ -14,6 +14,14 @@ The programm should run
 
 **How to contribute ?**
 
+If you'd like to contribute to the project, follow these steps:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and test thoroughly.
+Commit your changes with a clear message.
+Push your branch to your forked repository.
+Open a pull request to the main repository.
 
 **Author**
 Mathis Juret-Rafin
