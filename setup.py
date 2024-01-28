@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(
-	name='JURET-RAFIN-CDOF1-Quiz',
+	name='Quiz_Capital-JURET-RAFIN-CDOF1',
 	version='1.0',
 	author='MathisJuretRafin',
 	licence='MIT',
