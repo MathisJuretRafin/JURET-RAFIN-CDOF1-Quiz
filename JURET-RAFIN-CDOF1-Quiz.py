@@ -10,8 +10,8 @@ Created on Mon Jan 22 14:52:05 2024
 
 question1 = ["What the capital city of France ?", "Paris", "Berlin", "Oslo", "Madrid", "Paris"]
 question2 = ["What the capital city of Canada ?", "Ottawa", "Tokyo", "Sydney", "Mexico", "Ottawa"]
-question3 = ["What the capital city of Ireland ?", "Berne", "Rome", "Dublin", "Berlin", "Dublin"]
-question4 = ["What the capital city of China ?", "Beijing", "Tunis", "Brasilia", "Lisbonne", "Beijing"]
+question3 = ["What the capital city of Ireland ?", "Bern", "Rome", "Dublin", "Berlin", "Dublin"]
+question4 = ["What the capital city of China ?", "Beijing", "Tunis", "Brasilia", "Lisbon", "Beijing"]
 question5 = ["What the capital city of Germany ?", "Paris", "Berlin", "Oslo", "Madrid", "Berlin"]
 
 exit = False
