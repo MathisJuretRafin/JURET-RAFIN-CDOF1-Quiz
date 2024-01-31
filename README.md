@@ -39,5 +39,11 @@ Feel free to modify this README to improve clarity or provide additional informa
 **Author**
 Mathis Juret-Rafin
 
+**Contributors**
+Marion De Sousa
+Mathis0507
+Alexandre Correia
+Aline Wang
+
 **License**
 MIT
