@@ -31,7 +31,7 @@ while exit==False:
         return result
     
   
-    #Checks that the answer entered by the user is among the answers proposed
+    # This function checks if the user's answer is among the proposed answers
     def isAmongAnswers(question, answer):
         answer = answer.strip().lower()  # Remove leading and trailing whitespaces and convert to lowercase
         for i in question[1:-1]:
@@ -39,7 +39,7 @@ while exit==False:
                 return True
         return False
 
-    #Let the user answer to the question
+    # This section allows the user to answer the question
     for i in questionList:
         print("\n")
         print(printQuestion(i) + "\nEnter your answer :")
@@ -50,7 +50,7 @@ while exit==False:
         if answer.strip().lower() == i[5].lower() : score += 1  # Compare in lowercase and ignore leading/trailing spaces
         print("\n")
 
-    #We show the result with personnalized comments
+    # This section displays the result with personalized comments
     if(score==0) : print("Your score is ", score, "... You should try to improve your culture")
     elif(score >0 and score <4) : print("Your score is ", score, ". You can do better !")
     elif(score == 4) : print("Your score is", score, "! Almost perfect !")
