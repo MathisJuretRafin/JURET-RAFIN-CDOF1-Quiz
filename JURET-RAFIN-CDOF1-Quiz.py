@@ -30,13 +30,14 @@ while exit==False:
             result += i + "\n"
         return result
     
+  
     #Checks that the answer entered by the user is among the answers proposed
     def isAmongAnswers(question, answer):
+        answer = answer.strip().lower()  # Remove leading and trailing whitespaces and convert to lowercase
         for i in question[1:-1]:
-            if i==answer:
+            if i.lower() == answer:  # Compare in lowercase
                 return True
         return False
-
 
     #Let the user answer to the question
     for i in questionList:
@@ -46,8 +47,8 @@ while exit==False:
         while not isAmongAnswers(i,answer):
             print("\nAnswer unknown ! Enter an answer among those proposed:")
             answer = input()
-        if(answer == i[5]) : score += 1
-    print("\n")
+        if answer.strip().lower() == i[5].lower() : score += 1  # Compare in lowercase and ignore leading/trailing spaces
+        print("\n")
 
     #We show the result with personnalized comments
     if(score==0) : print("Your score is ", score, "... You should try to improve your culture")
